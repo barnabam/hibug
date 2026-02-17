@@ -1,7 +1,9 @@
 #include <stdio.h>
 
 // clang hi.c -o bug
+// ./bug
 
+// https://stackoverflow.com/questions/36662063/how-can-i-know-the-version-of-c
 void print_version() {
     #ifdef __STDC_VERSION__
         char* c_version;
