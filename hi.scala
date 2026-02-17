@@ -4,3 +4,4 @@
 def main(): Unit =
   println(util.Properties.versionMsg)
   println("hi bug!")
+
